@@ -40,7 +40,7 @@ repositories {
 and then add Undertow to your dependencies, like so:
 ```groovy
 dependencies {
-  implementation 'com.github.enderL2000:undertow:v1.0'
+  implementation 'com.github.enderL2000:undertow:v1.0.0'
 }
 ```
 and profit!
