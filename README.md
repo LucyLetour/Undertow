@@ -28,3 +28,23 @@ This funtion returns the vectors within the specified rectangular region, spaced
 
 #### `getFullField(step: Double = 0.1)`
 This is a convenience function aimed at merely returning the field of size `width` and `height` centered at 0,0 and with the specified step(default is 0.1) 
+
+## Including Undertow in your project
+If using gradle, add jitpack.io to your repositories, like so:
+```groovy
+repositories {
+  ...
+  maven { url 'https://jitpack.io' }
+}
+```
+and then add Undertow to your dependencies, like so:
+```groovy
+dependencies {
+  implementation 'com.github.enderL2000:undertow:Tag'
+}
+```
+and profit!
+
+If you're not using gradle, download the binaries and add `VectorField.kt` to your project.
+
+### Happy Coding!
