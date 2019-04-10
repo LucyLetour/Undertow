@@ -3,7 +3,7 @@ class VectorField(val width: Double = 1.0,
                   var xComp: (x: Double, y: Double) -> Double,
                   var yComp: (x: Double, y: Double) -> Double) {
 
-    fun getAtPoint(x: Double, y: Double): Vector = Vector(xComp(x, y), yComp(x, y))
+    fun getAtPoint(point: Point): Vector = Vector(xComp(point.x, point.y), yComp(point.x, point.y))
 
     fun getFullField(step: Double = 0.1): Array<Vector> = getPartialField(
         Point(-(width / 2), -(height / 2)),
