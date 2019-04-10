@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81d8aeb-d18e-4e67-90ae-0270999f6f0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UnderTow/META-INF/UnderTow.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UnderTow/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UnderTow/Vector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UnderTow/VectorField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UnderTow/VectorFieldTestKt$main$vectorField$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UnderTow/VectorFieldTestKt$main$vectorField$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UnderTow/VectorFieldTestKt$main$xComp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UnderTow/VectorFieldTestKt$main$yComp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UnderTow/VectorFieldTestKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VectorFieldTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/VectorFieldTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Undertow/.gradle/" />
@@ -57,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -66,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VectorFieldTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -91,9 +81,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/VectorField.kt" />
-        <option value="$PROJECT_DIR$/src/VectorFieldTest.kt" />
         <option value="$PROJECT_DIR$/src/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/VectorFieldTest.kt" />
       </list>
     </option>
   </component>
@@ -194,12 +184,12 @@
       <workItem from="1551412025023" duration="3014000" />
       <workItem from="1551415290388" duration="69367000" />
       <workItem from="1552433322679" duration="210000" />
-      <workItem from="1554854064255" duration="4376000" />
+      <workItem from="1554854064255" duration="4418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76967000" />
+    <option name="totallyTimeSpent" value="77009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -244,13 +234,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/src/VectorFieldTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -269,6 +252,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VectorFieldTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
