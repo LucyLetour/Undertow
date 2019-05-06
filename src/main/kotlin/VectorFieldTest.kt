@@ -5,5 +5,5 @@ fun main() {
     val xComp = {x: Double, y: Double -> x - y}
     val yComp = {x: Double, y: Double -> y - x}
     val vectorField2 = VectorField(width = 10.0, height = 10.0, xComp = xComp, yComp = yComp)
-    vectorField2.getFullField(1.0).forEach { println(it) }
+    vectorField2.getFullField(precision = 1.0).forEach { println(it) }
 }
