@@ -1,3 +1,5 @@
+package vectorField
+
 import kotlin.math.absoluteValue
 import kotlin.math.pow
 import kotlin.math.sign
@@ -94,8 +96,10 @@ class Ratio: Comparable<Ratio> {
     }
 
     operator fun times(otherDbl: Double): Ratio =
-        Ratio(this.numerator * Ratio(otherDbl).numerator,
-            this.denominator * Ratio(otherDbl).denominator).reduce()
+        Ratio(
+            this.numerator * Ratio(otherDbl).numerator,
+            this.denominator * Ratio(otherDbl).denominator
+        ).reduce()
 
     operator fun div(otherDbl: Double): Ratio =
         times(Ratio(otherDbl).reciprocal())

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="undertow.library.main" target="12" />
+      <module name="undertow.library.test" target="12" />
+      <module name="undertow.main" target="1.8" />
+      <module name="undertow.test" target="1.8" />
+      <module name="undertow.undertowbackend.main" target="1.8" />
+      <module name="undertow.undertowbackend.test" target="1.8" />
+      <module name="undertow.undertowfrontend.main" target="12" />
+      <module name="undertow.undertowfrontend.test" target="12" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
