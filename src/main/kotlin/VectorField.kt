@@ -60,6 +60,18 @@ class VectorFieldEQ(override val width: Ratio = Ratio(1),
                 yComp: Function):
             this(Ratio(width), Ratio(height), xComp, yComp)
 
+    constructor(width: Ratio,
+                height: Ratio,
+                xComp: String,
+                yComp: String):
+            this(width, height, Function("P", xComp, "x", "y"), Function("P", yComp, "x", "y"))
+
+    constructor(width: Double,
+                height: Double,
+                xComp: String,
+                yComp: String):
+            this(Ratio(width), Ratio(height), Function("P", xComp, "x", "y"), Function("P", yComp, "x", "y"))
+
     override fun getAtPoint(point: Point): Vector = Vector(
         xComp = xComp.calculate(point.x.decValue(), point.y.decValue()),
         yComp = yComp.calculate(point.x.decValue(), point.y.decValue()),
@@ -73,9 +85,7 @@ data class Point(val x: Ratio, val y: Ratio) {
 
 data class Vector(val xComp: Ratio, val yComp: Ratio, val location: Point = Point(
     0.0,
-    0.0
-)
-) {
+    0.0)) {
     constructor(xComp: Double, yComp: Double, location: Point = Point(0.0, 0.0)):
             this(Ratio(xComp), Ratio(yComp), location)
 }

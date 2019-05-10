@@ -179,7 +179,7 @@ fun main() {
     val ratio1 = Ratio(1, 2)
     val ratio2 = Ratio(2, 3)
     val ratio3 = Ratio(2, 4)
-    val ratio4 = Ratio(0.4)
+    val ratio4 = Ratio(4)
     val ratio5 = Ratio(0.1)
     val ratio6 = Ratio(0.0098)
     println(ratio1 + ratio2)
