@@ -144,8 +144,8 @@ class RatioRange(
     }
 }
 
-class RatioIterator(val start: Ratio, val endInclusive: Ratio, val step: Ratio): Iterator<Ratio> {
-    var initVal = start
+class RatioIterator(start: Ratio, private val endInclusive: Ratio, private val step: Ratio): Iterator<Ratio> {
+    private var initVal = start
 
     override fun hasNext(): Boolean {
         return initVal <= endInclusive
